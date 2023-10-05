@@ -1,0 +1,232 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Kyiv cake",
+      "description": "My fav cake originated in Kyiv, Ukraine",
+      "times": [
+        { "type": "baking", "time": 205 },
+        { "type": "cooking", "time": 40 },
+        { "type": "preparation", "time": 325 },
+        { "type": "chilling", "time": 1440 }
+      ],
+      "type": "sweet",
+      "ingredients": [
+        {
+          "type": "Base",
+          "ingredients": [
+            "8 egg whites",
+            "300g huzelnuts",
+            "4 tbs corn sturch",
+            "salt",
+            "1 tsp lemon juice",
+            "180g sugar",
+            "vanilin"
+          ]
+        },
+        {
+          "type": "Cream",
+          "ingredients": [
+            "300g butter",
+            "400g caramel condenced milk",
+            "2 tbsp dark cacao",
+            "2 tbsp cognak (optional)"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "description": "Day 1. Fermening egg whites",
+          "time": 1440,
+          "steps": [
+            "Separate all egg whites in a jar",
+            "Leave them covered in a safe place for at least 1 day (or 2 if cold). They should become fermented"
+          ]
+        },
+        {
+          "id": 2,
+          "description": "Day 2. Beating egg whites",
+          "time": 20,
+          "steps": [
+            "Start beating all egg whites with salt on a low spead, slowly increasing it. Do it for 5-7 mins",
+            "Add lemone juice and keep beating on a high speed adding one after another spoon of sugar. Do this for 10 mins until very thick merenga is formed"
+          ]
+        },
+        {
+          "id": 3,
+          "description": "Day 2. Mixing",
+          "time": 20,
+          "steps": [
+            "Add half of remaining dry ingredients (nuts + corn sturch) and mix gently",
+            "Then add another half and mix"
+          ]
+        },
+        {
+          "id": 4,
+          "description": "Day 2. Drying",
+          "time": 205,
+          "steps": [
+            "Divide mixture into 2 parts and put into 2 forms 24cm whide. Note: it should be baked at the same time. Otherwise do base mixture one by one just before baking",
+            "Put into oven 125C+ fan for 2:45 leaving door slightly open, so that they do not bake but dry"
+          ]
+        },
+        {
+          "id": 5,
+          "description": "Day 2. Cooling",
+          "time": 300,
+          "steps": [
+            "Turn off the heat and leave to cool in an open oven for 3-5 hours or overnight, so that they are completely hard, cool and dry"
+          ]
+        },
+        {
+          "id": 6,
+          "description": "Day 3. Preparing the base",
+          "time": 10,
+          "steps": [
+            "Take 2 parts of the base and cut all uneven edges",
+            "Leave cut parts for decoration"
+          ]
+        },
+        {
+          "id": 7,
+          "description": "Day 3. Cream",
+          "time": 20,
+          "steps": [
+            "Butter beat with condensed milk, add cognak",
+            "Divide by 2 parts and beat one wth cocoa"
+          ]
+        },
+        {
+          "id": 8,
+          "description": "Day 3. Assembling",
+          "time": 140,
+          "steps": [
+            "Apply cream betveen 2 cake bases",
+            "Sides and and top cover with cacao cream",
+            "Decorate with nuts",
+            "Put into fridge for a few hours or overnight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Passionfruit-lemon butter",
+      "description": "Like a jam that can be eaten separately or used as a cream for white sponge cake",
+      "times": [
+        { "type": "cooking", "time": 20 },
+        { "type": "preparation", "time": 20 },
+        { "type": "chilling", "time": 1440 }
+      ],
+      "type": "sweet",
+      "ingredients": [
+        {
+          "type": "Base",
+          "ingredients": [
+            "3/4 cup of passionfruit pulp",
+            "1/4 cup of lemon juice",
+            "3/4 cup custard sugar",
+            "4 egg yolks",
+            "125g butter"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "description": "Preparation",
+          "time": 20,
+          "steps": ["Separate passion fruit pulm", "Squize lemon juice"]
+        },
+        {
+          "id": 2,
+          "description": "Cooking",
+          "time": 20,
+          "steps": [
+            "Mix all ingredients and put over low heat",
+            "Mix all the time until mixture becomes tick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "RECIPE 1",
+      "description": "RECIPE 1 description",
+      "times": [
+        { "type": "cooking", "time": 20 },
+        { "type": "preparation", "time": 20 },
+        { "type": "chilling", "time": 1440 }
+      ],
+      "type": "savory",
+      "ingredients": [{ "type": "Base", "ingredients": ["1", "2"] }],
+      "steps": [
+        {
+          "id": 1,
+          "description": "Preparation",
+          "time": 40,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        },
+        {
+          "id": 2,
+          "description": "Cooking",
+          "time": 35,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "RECIPE 2",
+      "description": "RECIPE 2 description",
+      "times": [
+        { "type": "cooking", "time": 20 },
+        { "type": "preparation", "time": 20 },
+        { "type": "chilling", "time": 1440 }
+      ],
+      "type": "savory",
+      "ingredients": [{ "type": "Base", "ingredients": ["1", "2"] }],
+      "steps": [
+        {
+          "id": 1,
+          "description": "Preparation",
+          "time": 40,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        },
+        {
+          "id": 2,
+          "description": "Cooking",
+          "time": 35,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "RECIPE 3",
+      "description": "RECIPE 3 description",
+      "times": [
+        { "type": "cooking", "time": 20 },
+        { "type": "preparation", "time": 20 },
+        { "type": "chilling", "time": 1440 }
+      ],
+      "type": "savory",
+      "ingredients": [{ "type": "Base", "ingredients": ["1", "2"] }],
+      "steps": [
+        {
+          "id": 1,
+          "description": "Preparation",
+          "time": 40,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        },
+        {
+          "id": 2,
+          "description": "Cooking",
+          "time": 35,
+          "steps": ["Step 1", "Step 2", "Step 3"]
+        }
+      ]
+    }
+  ]
+}
