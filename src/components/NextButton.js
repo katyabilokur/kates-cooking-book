@@ -1,5 +1,5 @@
 function NextButton({ dispatch, stepCompleted, lastStep, onButtonClick }) {
-  if (!stepCompleted) return null;
+  // if (!stepCompleted) return null;
   if (lastStep)
     return (
       <button
@@ -8,10 +8,12 @@ function NextButton({ dispatch, stepCompleted, lastStep, onButtonClick }) {
           onButtonClick();
           dispatch({ type: "finish" });
         }}
+        disabled={!stepCompleted}
       >
         Finish
       </button>
     );
+
   return (
     <button
       className="btn btn-ui"

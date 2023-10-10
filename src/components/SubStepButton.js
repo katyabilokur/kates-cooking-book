@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ReactComponent as CheckSvg } from "../assets/icons/check.svg";
 
 function SubStepButton({ subStep, onStepsDone }) {
   const [done, setDone] = useState(false);
@@ -12,7 +13,10 @@ function SubStepButton({ subStep, onStepsDone }) {
       className={`btn btn-option ${done ? "done" : ""}`}
       onClick={handleClick}
     >
-      {subStep}
+      <span className="sub-step-content">
+        {subStep}
+        {done && <CheckSvg className="icon icon-check" />}
+      </span>
     </button>
   );
 }

@@ -1,4 +1,24 @@
-function Progress({ numSteps, currentStep, coockingTime, totalTime }) {
+import { useEffect } from "react";
+import { timeConverter } from "../helpers/timeConverter";
+
+function Progress({
+  numSteps,
+  currentStep,
+  totalTime,
+  secondsInProgress,
+  dispatch,
+}) {
+  useEffect(
+    function () {
+      const id = setInterval(function () {
+        dispatch({ type: "tick" });
+      }, 1000);
+
+      return () => clearInterval(id);
+    },
+    [dispatch]
+  );
+
   return (
     <header className="progress">
       <progress max={numSteps} value={currentStep} />
@@ -6,7 +26,8 @@ function Progress({ numSteps, currentStep, coockingTime, totalTime }) {
         Cooking step {currentStep} / {numSteps}
       </p>
       <p>
-        <strong>{coockingTime}</strong> / {totalTime} + chilling time
+        <strong>{timeConverter(+secondsInProgress)}</strong> / {totalTime} +
+        chilling time
       </p>
     </header>
   );

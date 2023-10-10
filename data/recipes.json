@@ -49,8 +49,8 @@
           "description": "Day 2. Beating egg whites",
           "time": 20,
           "steps": [
-            "Start beating all egg whites with salt on a low spead, slowly increasing it. Do it for 5-7 mins",
-            "Add lemone juice and keep beating on a high speed adding one after another spoon of sugar. Do this for 10 mins until very thick merenga is formed"
+            "Start beating all egg whites with salt on a low speed, slowly increasing it. Do it for 5-7 mins",
+            "Add lemon juice and keep beating on a high speed adding one after another spoon of sugar. Do this for 10 mins until very thick merenga is formed"
           ]
         },
         {
@@ -145,7 +145,7 @@
           "time": 20,
           "steps": [
             "Mix all ingredients and put over low heat",
-            "Mix all the time until mixture becomes tick"
+            "Stir all the time until mixture becomes tick"
           ]
         }
       ]
@@ -172,7 +172,7 @@
           "id": 2,
           "description": "Cooking",
           "time": 35,
-          "steps": ["Step 1", "Step 2", "Step 3"]
+          "steps": ["Step 1 Cooking", "Step 2 Cooking", "Step 3 Cooking"]
         }
       ]
     },
@@ -198,7 +198,7 @@
           "id": 2,
           "description": "Cooking",
           "time": 35,
-          "steps": ["Step 1", "Step 2", "Step 3"]
+          "steps": ["Step 1 Cooking", "Step 2 Cooking", "Step 3 Cooking"]
         }
       ]
     },
@@ -224,7 +224,7 @@
           "id": 2,
           "description": "Cooking",
           "time": 35,
-          "steps": ["Step 1", "Step 2", "Step 3"]
+          "steps": ["Step 1 Cooking", "Step 2 Cooking", "Step 3 Cooking"]
         }
       ]
     }

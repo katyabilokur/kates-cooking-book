@@ -11,6 +11,7 @@ function StartCooking({ recipes, dispatch }) {
     <div className="start">
       <h2>Welcome to my favourite recipes</h2>
       <h3>{recipes.length} delicious dishes to choose from</h3>
+
       <div className="recipes-filter">
         <select
           className="select"
